@@ -193,9 +193,9 @@ cid=txtcid.getText();
 count=Integer.parseInt(txtunit.getText());
 if(count<500)
         charge=1.00;
-else if(count<500 && count<600)
+else if(count>500 && count<600)
     charge=1.80;
-else if(count<600 && count<800)
+else if(count>600 && count<800)
     charge=2.80;
 else 
     charge=3.00;
